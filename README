@@ -1,7 +1,7 @@
 Device configuration for the HTC Golfu (aka HTC Aria/Gratia)
 
 Copyright (C) 2011 The CyanogenMod Project
-Copyright (C) 2012 GolfuICS
+Copyright (C) 2012 Munjeni
 
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
@@ -39,21 +39,10 @@ Copyright (C) 2012 GolfuICS
   $ cd vendor/cm/
   $ ./get-prebuilts
 
-
-  Setup device
-
-  Connect phone to usb abd make sure debugging is avaliable for adb pulls
-
-  $ cd ../../device/golfu
-  $ ./extract-files.sh # this pulls files from working golfu with most variants of shipped HTC ROM
-  $ cd ../../..
-
-
   Setup environment
 
   $ source build/envsetup.sh
-  $ lunch
-  (select cm_golfu-userdebug)
+  $ lunch 6
 
 
   Build CM9
@@ -65,7 +54,6 @@ Copyright (C) 2012 GolfuICS
 
   Cyanogen
   attn1
-  jznomoney (who booted the first golfu on Gingerbread and contributes tons to this device)
   CyanogenMod team
 
 ----

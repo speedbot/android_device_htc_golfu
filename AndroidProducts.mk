@@ -17,5 +17,3 @@
 # configurations which are actually buildable (e.g. through lunch)
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/golfu.mk

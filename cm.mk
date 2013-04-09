@@ -11,7 +11,7 @@ TARGET_BOOTANIMATION_NAME := vertical-320x480
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, vendor/cm/products/golfu.mk)
+$(call inherit-product, device/htc/golfu/golfu.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := golfu

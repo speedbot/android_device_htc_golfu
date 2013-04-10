@@ -37,6 +37,9 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno200
 # inherit from the proprietary version
 -include vendor/htc/golfu/BoardConfigVendor.mk
 
+# Additional librarys
+TARGET_PROVIDES_LIBAUDIO := true
+
 #graphics
 USE_OPENGL_RENDERER := true
 BOARD_ADRENO_DECIDE_TEXTURE_TARGET := true

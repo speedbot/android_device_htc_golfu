@@ -214,13 +214,13 @@ PRODUCT_PACKAGES += \
     camera.golfu \
     lights.golfu \
     sensors.golfu \
+    audio.primary.msm7x27a \
+    audio_policy.msm7x27a\
     audio.a2dp.default \
     libaudioutils \
     com.android.future.usb.accessory \
     librpc \
     e2fsck \ 
-    audio.primary.msm7x27a \
-    audio_policy.msm7x27a\
     libtilerenderer \
     libQcomUI \
     genlock.msm7x27a 

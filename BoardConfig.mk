@@ -109,6 +109,9 @@ BOARD_WITH_ALSA_UTILS := false
 BOARD_PROVIDES_LIBRIL := false
 BOARD_USE_NEW_LIBRIL_HTC := true
 
+# Additional librarys
+TARGET_PROVIDES_LIBAUDIO := true
+
 #bluetooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_BCM := true

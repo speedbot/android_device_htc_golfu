@@ -221,6 +221,10 @@ PRODUCT_PACKAGES += \
     e2fsck \ 
     audio.primary.msm7x27a \
     audio_policy.msm7x27a\
+    libtilerenderer \
+    libQcomUI \
+    genlock.msm7x27a 
+    
   
    
 

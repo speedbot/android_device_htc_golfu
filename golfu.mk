@@ -198,33 +198,45 @@ PRODUCT_COPY_FILES += \
 # media config xml file
 PRODUCT_COPY_FILES += \
     device/htc/golfu/media_profiles.xml:system/etc/media_profiles.xml
-
+# Video decoding
 PRODUCT_PACKAGES += \
-    librs_jni \
-    libOmxCore \
-    libmm-omxcore \
-    libOmxH264Dec \
-    libOmxMpeg4Dec \
-    libOmxVidEnc \
     libstagefrighthw \
-    dexpreopt \
+    libmm-omxcore \
+    libOmxCore \
+    libOmxVidEnc \
+    libOmxH264Dec \
+    libOmxMpeg4Dec
+    
+# Graphics 
+PRODUCT_PACKAGES += \
     copybit.msm7x27a \
     gralloc.msm7x27a \
     hwcomposer.msm7x27a \
-    camera.golfu \
-    lights.golfu \
-    sensors.golfu \
+    libtilerenderer \
+    libQcomUI
+    
+# Audio
+PRODUCT_PACKAGES += \
     audio.primary.msm7x27a \
     audio_policy.msm7x27a\
     audio.a2dp.default \
-    libaudioutils \
-    com.android.future.usb.accessory \
-    librpc \
-    e2fsck \ 
-    libtilerenderer \
-    libQcomUI \
-    genlock.msm7x27a 
+    libaudioutils
+
+# Other
+PRODUCT_PACKAGES += \
+    dexpreopt \
+    lights.msm7x27a \
+    sensors.msm7x27a \
+    gps.golfu   
     
+# Camera
+PRODUCT_PACKAGES += \
+    camera.default    
+    
+# Misc
+PRODUCT_PACKAGES += \
+    com.android.future.usb.accessory
+
   
 PRODUCT_LOCALES := en_GB
 PRODUCT_LOCALES += mdpi

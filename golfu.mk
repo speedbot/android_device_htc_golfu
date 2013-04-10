@@ -226,9 +226,6 @@ PRODUCT_PACKAGES += \
     genlock.msm7x27a 
     
   
-   
-
-
 PRODUCT_LOCALES := en_GB
 PRODUCT_LOCALES += mdpi
 

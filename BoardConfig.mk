@@ -100,7 +100,7 @@ WIFI_DRIVER_MODULE_NAME     := "ath6kl_sdio"
 
 BOARD_KERNEL_CMDLINE := no_console_suspend=1 console=null
 BOARD_KERNEL_BASE := 0x13000000
-
+BOARD_WLAN_DEVICE := ath6kl
 # audio
 BOARD_USES_AUDIO_LEGACY := false
 BOARD_USES_GENERIC_AUDIO := false

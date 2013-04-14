@@ -101,12 +101,6 @@ WIFI_DRIVER_MODULE_NAME     := "ath6kl_sdio"
 BOARD_KERNEL_CMDLINE := no_console_suspend=1 console=null
 BOARD_KERNEL_BASE := 0x13000000
 BOARD_WLAN_DEVICE := ath6kl
-# audio
-BOARD_USES_AUDIO_LEGACY := false
-BOARD_USES_GENERIC_AUDIO := false
-TARGET_PROVIDES_LIBAUDIO := false
-BOARD_USES_ALSA_AUDIO := false
-BOARD_WITH_ALSA_UTILS := false
 
 # Target libs check
 BOARD_PROVIDES_LIBRIL := false
@@ -117,7 +111,7 @@ TARGET_PROVIDES_LIBAUDIO := true
 
 #bluetooth
 BOARD_HAVE_BLUETOOTH := true
-BOARD_HAVE_BLUETOOTH_BCM := true
+
 
 #fm
 #BOARD_HAVE_FM_RADIO := true

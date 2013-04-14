@@ -152,9 +152,14 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 836763136
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 1023409664
 BOARD_FLASH_BLOCK_SIZE := 2048
 
+#inline kernel building 
+
 TARGET_RELEASETOOLS_EXTENSIONS := device/htc/common
 TARGET_PREBUILT_KERNEL := device/htc/golfu/prebuilt/kernel
 LOCAL_KERNEL := device/htc/golfu/prebuilt/kernel
+TARGET_KERNEL_SOURCE := kernel/htc/golfu
+TARGET_KERNEL_CONFIG := golfu_defconfig
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3
 
 #TARGET_PREBUILT_RECOVERY_KERNEL := device/htc/golfu/prebuilt/recovery_kernel
 #BOARD_USES_RECOVERY_CHARGEMODE := true
